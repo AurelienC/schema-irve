@@ -252,8 +252,7 @@
             "constraints": {
                 "required": true,
                 "pattern": "(?:(?:^|,)(^[A-Z]{2}[A-Z0-9]{4,33}$|Non concerné))+$",
-                "unique":true,
-                "missingValues": ["Non concerné"]
+                "unique": true
             }
         },
         {
@@ -492,6 +491,6 @@
         }
     ],
     "missingValues": [
-        ""
+        "Non concerné"
     ]
 }
